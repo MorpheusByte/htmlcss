@@ -10,12 +10,13 @@
     height: 50%;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation: travel;
-    animation-duration: 2s;
+    animation-duration: 5s;
     /* animation-iteration-count: 3; */
     animation-timing-function: ease-in-out;
     animation-iteration-count: 3;
     animation-direction: alternate;
     animation-delay: 1s;
+    animation-fill-mode: both;
 }
 
 
@@ -23,14 +24,18 @@
 @keyframes travel{
     0%{
         transform: translate(0);
+        background-color: yellow;
     }
     25%{
         transform: translateY(100%);
+        background-color: blue;
     }
     50%{
         transform: translate(100%, 100%);
+        background-color: magenta;
     }
     100%{
         transform: translateX(100%);
+        background-color: orange;
     }
 }
