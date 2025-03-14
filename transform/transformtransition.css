@@ -1,0 +1,32 @@
+.text {
+    text-align: center;
+    font-size: 2rem;
+    width: 50vw;
+    margin: 1.5rem auto;
+  }
+  
+  .text1 {
+    background-color: darkcyan;
+    transform: rotateX(180deg);
+  }
+  
+  .text2 {
+    background-color: fuchsia;
+    transform: rotateY(180deg);
+  }
+  
+  .text3 {
+    background-color: orange;
+  }
+  
+  .text4 {
+    background-color: red;
+  }
+  
+  .text5 {
+    background-color: olive;
+  }
+  
+  .text6 {
+    background-color: crimson;
+  }
