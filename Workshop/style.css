@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.container{
+    background-color: #000000;
+    height: 850px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.ekran{
+    height: 300px;
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 5px;
+    width: 440px;
+    height: 540px;
+    padding-left: 30px;
+}
+
+.number{
+    height: 100px;
+    width: 100px;
+    background-color: #333333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 45px;
+    color: white;
+}
+
+.number:hover{
+    background-color: #181818;
+    color: #8B8B8B;
+}
+
+.sifirlama{
+    background-color: #A5A5A5;
+    color: black;
+}
+
+.sifirlama:hover{
+    background-color: #585858;
+    color: black;
+}
+
+.islem{
+    background-color: #F1A33B;
+}
+
+.islem:hover{
+    background-color: #83561C;
+}
+
+.sifir{
+    grid-area: 5/1/5/3;
+    width: 225px;
+    border-radius: 50px;
+    justify-content: left;
+    padding-left: 40px;
+}
+
